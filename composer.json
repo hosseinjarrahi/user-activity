@@ -8,12 +8,7 @@
     "activity"
   ],
   "type": "library",
-  "authors": [
-    {
-      "name": "MD.HARUN-UR-RASHID",
-      "email": "harun.cox@gmail.com"
-    }
-  ],
+  "authors": [],
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
