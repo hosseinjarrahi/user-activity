@@ -25,6 +25,7 @@ trait Loggable
 
         DB::table(self::$logTable)->insert([
             'user_id'    => $userId,
+            'place_id'    => app('selected::place')->id ?? null,
             'log_date'   => $dateTime,
             'table_name' => $tableName,
             'log_type'   => $logType,
